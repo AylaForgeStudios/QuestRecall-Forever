@@ -1,0 +1,21 @@
+## Interface: 16001
+## Title: QuestRecall Forever
+## Notes: Conservative quest correlation with separate character history.
+## Version: 1.0.0
+## SavedVariables: QuestRecallForeverDB, QuestRecallForeverSettings
+## OptionalDeps: QuestieDB
+
+QuestOrigins.lua
+Settings.lua
+QuestObservations.lua
+BagInventory.lua
+QuestItemRelations.lua
+QuestItemAssessment.lua
+QuestItemAbandonment.lua
+QuestItemTracking.lua
+Detector.lua
+Storage.lua
+HistoryView.lua
+JournalUI.lua
+Main.lua
+MinimapButton.lua

@@ -1,0 +1,61 @@
+# Temporary validation runtimes, caches and package artifacts
+/.validation/
+node_modules/
+.npm/
+.cache/
+__pycache__/
+*.pyc
+
+# WoW runtime data and local client copies (not addon source)
+WTF/
+Cache/
+Logs/
+SavedVariables/
+Interface/
+/_forever_/
+/_classic_beta_/
+QuestRecallForeverDB.lua
+QuestRecallForeverDB.lua.bak
+
+# Backups, logs and editor temporary files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Worktrees locales
+/.worktrees/
+
+# Credenciales y claves
+.env
+.env.*
+credentials*.json
+secrets*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Respaldos y paquetes
+/QuestRecallBackups/
+/backups/
+*.bundle
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# SavedVariables colocadas accidentalmente en la raíz
+/QuestRecallForever.lua
